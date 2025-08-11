@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fruit-brust-25</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header class="max-w-7xl mx-auto">
+      <!-- navbar -->
+      <nav>
+        <div
+          class="navbar bg-orange-400 text-black md:text-white rounded-full md:px-6 my-4 md:my-10"
+        >
+          <div class="navbar-start">
+            <!-- Menus are here -->
+            <ul class="menu hidden lg:flex menu-horizontal px-1">
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+
+              <li><a>All fruits</a></li>
+              <li><a>Contacts</a></li>
+            </ul>
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              >
+                <li><a>Home</a></li>
+                <li>
+                  <a>About Us</a>
+                  <ul class="p-2">
+                    <li><a>Find us</a></li>
+                    <li><a>Collections</a></li>
+                  </ul>
+                </li>
+                <li><a>All fruits</a></li>
+                <li><a>Contacts</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="navbar-center lg:flex">
+            <!-- Logo is here -->
+            <div class="flex items-center gap-2">
+              <div><img src="./images/logo.png" alt="" /></div>
+              <p class="text-xl font-bold">Fruit Brust</p>
+            </div>
+          </div>
+          <div class="navbar-end hidden md:flex">
+            <div class="bg-white px-4 py-2 flex rounded-md">
+              <input
+                type="text"
+                class="md:w-32 text-black"
+                name=""
+                placeholder="Search here"
+                id=""
+              />
+              <img class="" src="./images/Frame.png" alt="Frame" />
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container mx-auto"></main>
+  </body>
+</html>
